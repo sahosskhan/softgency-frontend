@@ -1,3 +1,4 @@
+import CaseStudy from "./CaseStudy";
 import Counter from "./Counter";
 import HeroPage from "./HeroPage";
 import HowWeWork from "./HowWeWork";
@@ -14,6 +15,7 @@ const Home = () => {
 <Counter/>
 {/* <HowWeWork/> */}
 <ServiceHighlight/>
+<CaseStudy/>
     </div>
   );
 };
