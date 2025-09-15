@@ -1,4 +1,5 @@
 import CaseStudy from "./CaseStudy";
+import Collaboration from "./Collaboration";
 import Counter from "./Counter";
 import HeroPage from "./HeroPage";
 import HowWeWork from "./HowWeWork";
@@ -16,6 +17,7 @@ const Home = () => {
 {/* <HowWeWork/> */}
 <ServiceHighlight/>
 <CaseStudy/>
+<Collaboration/>
     </div>
   );
 };

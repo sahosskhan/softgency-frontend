@@ -5,22 +5,22 @@ const counterData = [
   {
     icon: <Briefcase size={40} className="text-red-600" />,
     title: "Projects",
-    target: 120,
+    target: 30,
   },
   {
     icon: <Users size={40} className="text-red-600" />,
     title: "Clients",
-    target: 85,
+    target: 5,
   },
   {
     icon: <Trophy size={40} className="text-red-600" />,
     title: "Team",
-    target: 25,
+    target: 5,
   },
     {
     icon: <Calendar size={40} className="text-red-600" />,
     title: "Experience",
-    target: 1,
+    target: 2,
   },
 ];
 
@@ -82,7 +82,7 @@ const Counter = () => {
         </h2>
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-4 gap-8 max-w-7xl mx-auto">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 max-w-7xl mx-auto">
         {counterData.map((item, index) => (
           <div
             key={index}
