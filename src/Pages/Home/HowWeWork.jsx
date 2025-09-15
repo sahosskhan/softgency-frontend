@@ -37,10 +37,6 @@ const HowWeWork = () => {
           <span className="text-red-600">How</span>{" "}
           <span className="text-gray-900">We Work</span>
         </h2>
-        <p className="text-lg text-gray-700 text-left">
-          Our workflow is designed to ensure efficiency, creativity, and
-          transparency at every step of the process.
-        </p>
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">

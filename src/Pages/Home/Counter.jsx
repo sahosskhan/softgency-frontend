@@ -80,10 +80,6 @@ const Counter = () => {
           <span className="text-red-600">Our</span>{" "}
           <span className="text-gray-900">Achievements</span>
         </h2>
-        <p className="text-lg text-gray-700 text-left">
-          We take pride in our journey of successful projects, satisfied clients,
-          and a growing dedicated team.
-        </p>
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-4 gap-8 max-w-7xl mx-auto">

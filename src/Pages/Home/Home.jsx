@@ -1,6 +1,7 @@
 import Counter from "./Counter";
 import HeroPage from "./HeroPage";
 import HowWeWork from "./HowWeWork";
+import ServiceHighlight from "./ServiceHighlight";
 import WhyChooseUs from "./WhyChooseUs";
 
 
@@ -11,7 +12,8 @@ const Home = () => {
       <HeroPage />
 <WhyChooseUs/>
 <Counter/>
-<HowWeWork/>
+{/* <HowWeWork/> */}
+<ServiceHighlight/>
     </div>
   );
 };

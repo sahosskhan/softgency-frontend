@@ -45,14 +45,11 @@ const whyChooseData = [
 const WhyChooseUs = () => {
   return (
     <section className="bg-black/90 py-28 px-6">
-      <div className="max-w-6xl mx-auto text-center mb-12">
+      <div className="max-w-7xl mx-auto text-center mb-12">
         <h2 className="text-4xl md:text-5xl text-left font-bold mb-4">
           <span className="text-red-600">Why</span>{" "}
           <span className="text-white">Choose Us</span>
         </h2>
-        <p className="text-white text-xl text-left ">
-          We combine expertise, creativity, and dedication to deliver digital solutions that truly make a difference.
-        </p>
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto">
