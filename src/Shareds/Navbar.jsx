@@ -44,7 +44,7 @@ const Navbar = () => {
                 className="relative px-6 py-2 rounded-lg font-medium border-2 border-red-600 bg-white text-red-600 overflow-hidden group"
               >
                 {/* Hover Gradient Background */}
-                <span className="absolute inset-0 bg-gradient-to-r from-red-600 to-black translate-x-[-100%] group-hover:translate-x-0 transition-transform duration-500 ease-out"></span>
+                <span className="absolute inset-0 bg-gradient-to-r from-red-600 to-red-200 translate-x-[-100%] group-hover:translate-x-0 transition-transform duration-500 ease-out"></span>
                 {/* Text Layer */}
                 <span className="relative z-10 transition-colors duration-500 group-hover:text-white">
                   Contact Us
@@ -80,7 +80,7 @@ const Navbar = () => {
               className="relative block text-center px-6 py-2 rounded-lg font-medium border-2 border-red-600 bg-white text-red-600 overflow-hidden group"
               onClick={() => setIsOpen(false)}
             >
-              <span className="absolute inset-0 bg-gradient-to-r from-red-600 to-black translate-x-[-100%] group-hover:translate-x-0 transition-transform duration-500 ease-out"></span>
+              <span className="absolute inset-0 bg-gradient-to-r from-red-600 to-red-200 translate-x-[-100%] group-hover:translate-x-0 transition-transform duration-500 ease-out"></span>
               <span className="relative z-10 transition-colors duration-500 group-hover:text-white">
                 Contact Us
               </span>

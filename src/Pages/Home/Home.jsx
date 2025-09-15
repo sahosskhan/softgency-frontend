@@ -1,11 +1,12 @@
-import React from 'react';
+import HeroPage from "./HeroPage";
 
 const Home = () => {
-    return (
-        <div className='text-red-500 text-9xl pt-16'>
-            hi home
-        </div>
-    );
+  return (
+    <div className="min-h-screen bg-gradient-to-b from-white via-red-50 to-white">
+      <HeroPage />
+
+    </div>
+  );
 };
 
 export default Home;
