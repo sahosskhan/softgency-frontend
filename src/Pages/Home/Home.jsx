@@ -4,6 +4,7 @@ import Counter from "./Counter";
 import HeroPage from "./HeroPage";
 import HowWeWork from "./HowWeWork";
 import ServiceHighlight from "./ServiceHighlight";
+import Testimonial from "./Testimonial";
 import WhyChooseUs from "./WhyChooseUs";
 
 
@@ -18,6 +19,7 @@ const Home = () => {
 <ServiceHighlight/>
 <CaseStudy/>
 <Collaboration/>
+<Testimonial/>
     </div>
   );
 };
