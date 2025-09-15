@@ -1,6 +1,7 @@
 import CaseStudy from "./CaseStudy";
 import Collaboration from "./Collaboration";
 import Counter from "./Counter";
+import FAQ from "./FAQ";
 import HeroPage from "./HeroPage";
 import HowWeWork from "./HowWeWork";
 import ServiceHighlight from "./ServiceHighlight";
@@ -20,6 +21,7 @@ const Home = () => {
 <CaseStudy/>
 <Collaboration/>
 <Testimonial/>
+<FAQ/>
     </div>
   );
 };

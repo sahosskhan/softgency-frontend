@@ -50,13 +50,13 @@ const Testimonial = () => {
   };
 
   return (
-    <section className="bg-gradient-to-br from-red-100 via-white to-red-50 py-28 px-6">
+    <section className="bg-black/90 py-28 px-6">
       <div className="max-w-7xl mx-auto flex justify-between items-center mb-12">
         {/* Heading */}
         <div className="text-left">
           <h2 className="text-4xl md:text-5xl font-bold">
             <span className="text-red-600">Client</span>{" "}
-            <span className="text-gray-900">Reviews</span>
+            <span className="text-white">Reviews</span>
           </h2>
         </div>
 
